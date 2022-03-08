@@ -1,0 +1,13 @@
+﻿PM> Install-Package EntityFramework
+PM> Install-Package Microsoft.EntityFrameworkCore.Design
+PM> Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+EF Core does not support visual designer for DB model and wizard to create the entity and context classes similar to EF 6.
+
+(Refer:https://www.entityframeworktutorial.net/efcore/create-model-for-existing-database-in-ef-core.aspx)
+Scaffold-DbContext [-Connection] [-Provider] [-OutputDir] [-Context] [-Schemas>] [-Tables>] 
+                    [-DataAnnotations] [-Force] [-Project] [-StartupProject] [<CommonParameters>]
+
+
+PM> Scaffold-DbContext "Server=DESKTOP-KGA5DES;Database=Employee_DbFirstApproach;Trusted_Connection=True;MultipleActiveResultSets=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
