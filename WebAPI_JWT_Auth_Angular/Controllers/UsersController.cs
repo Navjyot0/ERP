@@ -102,7 +102,7 @@ namespace WebAPI_JWT_Auth_Angular.Controllers
                         return await Task.FromResult(userDTO);
                     }
                 }
-                return await Task.FromResult("invald or Password");
+                return await Task.FromResult("invald Email or Password");
             }
             catch(Exception ex)
             {
@@ -121,7 +121,7 @@ namespace WebAPI_JWT_Auth_Angular.Controllers
                     new Claim(JwtRegisteredClaimNames.Email, user.Email),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
                 }),
-                Expires = DateTime.UtcNow.AddDays(5),
+                Expires = DateTime.UtcNow.AddSeconds(10),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
                 Audience = _jWTConfig.Audience,
                 Issuer = _jWTConfig.Issuer
