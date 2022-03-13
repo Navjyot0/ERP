@@ -1,0 +1,1223 @@
+1. .Net Core
+2. C#
+3. OOP
+4. LINQ
+5. SQL
+6. Entity Framework
+7. ASP.Net MVC
+8. ASP.Net Web API
+9. Typescript
+10. Angular
+--------11. SOLID Principal
+12. Design Patterns
+13. Git
+14. Agile & Scrum
+15. DevOps
+16. HTML + CSS + JS
+17. WCF
+18. ADO.NET
+19. jQuery
+
+-----------------.Net Core-----------------
+Q1: What is .NET Core?
+Q2: What is the difference between String and string in C#?
+Q3: What is the .NET Framework?
+Q4: What is .NET Standard?
+Q5: What you understand by Value types and Reference types in .NET? Provide some comparison.  Related To: C#
+Q6: What is Boxing and Unboxing?  Related To: C#
+Q7: What are some characteristics of .NET Core?
+Q8: What is the difference between .NET Core and Mono?
+Q9: What's the difference between SDK and Runtime in .NET Core?
+Q10: What is the difference between decimal, float and double in .NET?
+Q11: What is an unmanaged resource in .NET? 
+Q12: What is CLR?
+Q13: What is CTS?
+Q14: What is a .NET application domain?
+Q15: Name some CLR services?
+Q16: What is .NET Standard and why we need to consider it?
+Q17: What is MSIL?
+Q18: What's the difference between .NET Core, .NET Framework, and Xamarin?
+Q19: What is Kestrel?
+Q20: What is difference between .NET Core and .NET Framework?
+Q21: Explain what is included in .NET Core?
+Q22: Explain two types of deployment for .NET Core applications
+Q23: Is there a way to catch multiple exceptions at once and without code duplication?  Related To: C#
+Q24: Explain the difference between Task and Thread in .NET  Related To: C#
+Q25: What is CoreCLR?
+Q26: Why to use of the IDisposable interface?  Related To: C#
+Q27: What are the benefits of Explicit Compilation (AOT)?
+Q28: When should we use .NET Core and .NET Standard Class Library project types?
+Q29: What's is BCL?
+Q30: What is Explicit Compilation?
+Q31: What is the difference between Class Library (.NET Standard) and Class Library (.NET Core)?
+Q32: What is FCL?
+Q33: Explain the difference between Managed and Unmanaged code in .NET?
+Q34: What is JIT compiler?
+Q35: What does Common Language Specification (CLS) mean?
+Q36: What is the difference between .NET Standard and PCL (Portable Class Libraries)?
+Q37: What about MVC in .NET Core?  Related To: ASP.NET MVC
+Q38: Does .NET support Multiple Inheritance?  Related To: OOP
+Q39: What is the difference between .NET Framework/Core and .NET Standard Class Library project types?
+Q40: What's the difference between RyuJIT and Roslyn?
+Q41: Explain how does Asynchronous tasks Async/Await work in .NET?  Related To: C#
+Q42: What is the difference between AppDomain, Assembly, Process and a Thread?
+Q43: How to choose the target version of .NET Standard library?
+Q44: Why does .NET use a JIT compiler instead of just compiling the code once on the target machine?
+Q45: Explain Implicit Compilation process
+Q46: What are benefits of using JIT?
+Q47: What is the difference between CIL and MSIL (IL)?
+Q48: Why does .NET Standard library exist?
+Q49: Explain when to use Finalize vs Dispose?  Related To: C#
+Q50: What is the difference between Node.js async model and async/await in .NET?
+Q51: How many types of JIT Compilations do you know?
+Q52: Could you name the difference between .Net Core, Portable, Standard, Compact, UWP, and PCL?
+
+-----------------C#-----------------
+Q1: What is C#?  
+Q2: What is an Object?  
+Q3: What is the difference between continue and break statements in C#?  
+Q4: What are Property Accessors?  
+Q5: What is the difference between a Struct and a Class in C#?  
+Q6: What is an Abstract Class?  
+Q7: What is namespace in C#?  
+Q8: What are Nullable types in C#?  
+Q9: How is Exception Handling implemented in C#?  
+Q10: What you understand by Value types and Reference types in .NET? Provide some comparison.  Related To: .NET Core
+Q11: What is Serialization?  
+Q12: What are the different types of classes in C#?  
+Q13: What is the difference between string and StringBuilder in C#?  
+Q14: What is LINQ in C#?  Related To: LINQ
+Q15: What are Reference Types in C#?  
+Q16: What is Managed or Unmanaged Code?  
+Q17: Can multiple catch blocks be executed?  
+Q18: Can this be used within a Static method?  
+Q19: What are partial classes?  
+Q20: Why to use finally block in C#?  
+Q21: What are generics in C#?  
+Q22: What are dynamic type variables in C#?  
+Q23: What is Boxing and Unboxing?  Related To: .NET Core
+Q24: What is enum in C#?  
+Q25: In how many ways you can pass parameters to a method?  
+Q26: Explain Anonymous type in C#  
+Q27: Explain Code Compilation in C#  
+Q28: What is scope of a Internal member variable of a C# class?  
+Q29: What is the difference between ref and out keywords?  
+Q30: What is Virtual Method in C#?  
+Q31: What is the difference between dynamic type variables and object type variables?  
+Q32: What is difference between constant and readonly?  
+Q33: Is there a difference between throw and throw ex?  
+Q34: What is the difference between Interface and Abstract Class?  Related To: OOP
+Q35: What is the difference between Equality Operator (==) and Equals() Method in C#?  
+Q36: What are the uses of using in C#  
+Q37: What is the difference between Virtual method and Abstract method?  Related To: OOP
+Q38: What is Extension Method in C# and how to use them?  
+Q39: Why can't you specify the accessibility modifier for methods inside the Interface?  
+Q40: What is an anonymous function in C#?  
+Q41: What is sealed Class in C#?  
+Q42: What is Reflection in C#.Net?  
+Q43: What is a Destructor in C# and when shall I create one?  
+Q44: How encapsulation is implemented in C#?  
+Q45: What is lambda expressions in C#?  
+Q46: What is the difference between overloading and overriding?  
+Q47: What is the use of Null Coalescing Operator (??) in C#?  
+Q48: How can you prevent a class from overriding in C#?  Related To: OOP
+Q49: Is there a way to catch multiple exceptions at once and without code duplication?  Related To: .NET Core
+Q50: Explain the difference between Task and Thread in .NET  Related To: .NET Core
+Q51: Why to use of the IDisposable interface?  Related To: .NET Core
+Q52: Test if a Number belongs to the Fibonacci Series CSPY Related To: Fibonacci Series
+Q53: Explain what is Ternary Search? CSJava Related To: Searching
+Q54: What are pointer types in C#?  
+Q55: Can you create a function in C# which can accept varying number of arguments?  
+Q56: What is difference between late binding and early binding in C#?  
+Q57: What is the difference between is and as operators in C#?  
+Q58: What is scope of a Protected Internal member variable of a C# class?  
+Q59: Can Multiple Inheritance implemented in C# ?  
+Q60: Is operator overloading supported in C#?  
+Q61: What interface should your data structure implement to make the Where method work?  
+Q62: What is Marshalling and why do we need it?  
+Q63: What is the difference between System.ApplicationException class and System.SystemException class?  
+Q64: Why to use lock statement in C#?  
+Q65: What are the different ways a method can be overloaded?  
+Q66: What is the yield keyword used for in C#?  
+Q67: IEnumerable vs List - What to Use? How do they work?  
+Q68: When to use ArrayList over array[] in C#?  
+Q69: What is the use of conditional preprocessor directive in C#?  
+Q70: When would you use delegates in C#?  
+Q71: What is the Constructor Chaining in C#?  
+Q72: What's the difference between StackOverflowError and OutOfMemoryError?  
+Q73: What is the difference between dispose and finalize methods in C#?  
+Q74: What is Indexer in C#?  
+Q75: What is the difference between Func<string,string> and delegate?  
+Q76: Explain what is Short-Circuit Evaluation in C#  
+Q77: Explain the difference between Select and Where  Related To: LINQ
+Q78: What is the best practice to have best performance using Lazy objects?   
+Q79: Explain how does Asynchronous tasks Async/Await work in .NET?  Related To: .NET Core
+Q80: What happens when we Box or Unbox Nullable types?  
+Q81: Can you explain the difference between Interface, abstract class, sealed class, static class and partial class in C#?  
+Q82: How to solve Circular Reference?  Related To: OOP
+Q83: What is Multicast Delegate in C#?  
+Q84: What is jagged array in C# and when to prefer jagged arrays over multi-dimensional arrays?  
+Q85: Why Abstract class can not be sealed or static?  
+Q86: What are the benefits of a Deferred Execution in LINQ?  Related To: LINQ
+Q87: Could you explain the difference between destructor, dispose and finalize method?  
+Q88: What are the differences between IEnumerable and IQueryable?  
+Q89: What is the difference between Lambdas and Delegates?  
+Q90: What is the method MemberwiseClone() doing?  
+Q91: What's the difference between the System.Array.CopyTo() and System.Array.Clone()?  
+Q92: What are Circular References in C#?  
+Q93: What is deep or shallow copy concept in C#?  
+Q94: List some different ways for equality check in .NET  
+Q95: What is a preprocessor directives in C#?  
+Q96: What is the use of static constructors?  
+Q97: What is the volatile keyword used for?  
+Q98: Explain what is Weak Reference in C#?  
+Q99: Could you explain the difference between Func vs. Action vs. Predicate?  
+Q100: Can you add extension methods to an existing static class?  
+Q101:  in C#, when should we use abstract classes instead of interfaces with extension methods?  
+Q102: Implement the Where method in C#. Explain.  
+Q103: Explain the difference between IQueryable, ICollection, IList & IDictionary interfaces?  
+Q104: You have defined a destructor in a class that you have developed by using the C#, but the destructor never executed. Why?  Related To: OOP
+Q105: Why doesn't C# allow static methods to implement an interface?  Related To: OOP
+Q106: Explain when to use Finalize vs Dispose?  Related To: .NET Core
+Code Challenges
+Q1: Implement a Queue using two Stacks CSJSJavaPY Related To: Queues, Stacks, Java, JavaScript
+Q2: Filter out the first 3 even numbers from the list using LINQ  Related To: LINQ
+Q3: How to check if two Strings (words) are Anagrams? CSJavaPY Related To: Strings, Data Structures, Java
+Q4: Reverse the ordering of words in a String CS Related To: Strings
+Q5: Explain how does the Sentinel Search work? CSPY Related To: Searching
+Q6: Refactor the code  
+Q7: What is the output of the program below? Explain.  
+Q8: Given an array of ints, write a C# method to total all the values that are even numbers.  
+Q9: Can you return multiple values from a function in C#? Provide some examples.  
+Q10: Can you do Iterative Pre-order Traversal of a Binary Tree without Recursion? CSPY Related To: Binary Tree, Data Structures
+Q11: Binet's formula: How to calculate Fibonacci numbers without Recursion or Iteration?  CSJSJavaPY Related To: Fibonacci Series, Data Structures, JavaScript
+Q12: Find Merge (Intersection) Point of Two Linked Lists CSJavaPY Related To: Linked Lists
+Q13: Explain what is Fibonacci Search technique? CSJSJavaPY Related To: Divide & Conquer, Fibonacci Series, Searching, Data Structures, JavaScript
+Q14: Is the comparison of time and null in the if statement below valid or not? Why or why not?  
+Q15: What is the output of the program below? Explain your answer.  
+Q16: What is the output of the program below?  
+Q17: What is the output of the short program below? Explain your answer.  
+Q18: Is relying on && short-circuiting safe in .NET?  
+Q19: Calculate the circumference of the circle  
+
+-----------------OOP-----------------
+Q1: What is Inheritance?  
+Q2: What is Object-Oriented Programming (OOP)?  
+Q3: What is Polymorphism?  
+Q4: What is Encapsulation?  
+Q5: Can you inherit private members of a class?  
+Q6: Explain the concept of Constructor  
+Q7: What is an object?  
+Q8: What is the relationship between a class and an object?  
+Q9: What is the difference between a class and a structure?  
+Q10: What is the difference between procedural and object-oriented programming?  
+Q11: What is a class?  
+Q12: Explain the basic features of OOPs  
+Q13: Why is the virtual keyword used in code?  
+Q14: What is the difference between Interface and Abstract Class?  Related To: C#
+Q15: What is the difference between Virtual method and Abstract method?  Related To: C#
+Q16: When should I use a struct instead of a class?  
+Q17: What is Polymorphism, what is it for, and how is it used?  
+Q18: How can you prevent a class from overriding in C#?  Related To: C#
+Q19: What are abstract classes? What are the distinct characteristics of an abstract class?  
+Q20: How is method overriding different from method overloading?  
+Q21: State the features of an Interface  
+Q22: How could you define Abstraction in OOP?  
+Q23: How can you prevent your class to be inherited further?  
+Q24: What do you mean by Data Encapsulation?  
+Q25: Can you specify the accessibility modifier for methods inside the interface?  
+Q26: Is it possible for a class to inherit the constructor of its base class?  
+Q27: What are similarities between a class and a structure?  
+Q28: What are the different ways a method can be Overloaded?  
+Q29: Interface or an Abstract class: which one to use?  
+Q30: What is Unit Of Work?  Related To: ADO.NET
+Q31: What's the difference between a method and a function in OOP context?  
+Q32: Explain different types of Inheritance  
+Q33: What is Coupling in OOP?  
+Q34: What exactly is the difference between an Interface and abstract class?  
+Q35: Differentiate between an abstract class and an interface  
+Q36: Explain the concept of Destructor  
+Q37: When should I use an Interface and when should I use a Base Class?  
+Q38: What is the difference between Cohesion and Coupling?  
+Q39: Can you declare an overridden method to be static if the original method is not static?  
+Q40: Does .NET support Multiple Inheritance?  Related To: .NET Core
+Q41: What's the advantage of using getters and setters - that only get and set - instead of simply using public fields for those variables?  
+Q42: What is a static constructor?  
+Q43: What is the difference between an abstract function and a virtual function?  
+Q44: What is Cohesion in OOP?  
+Q45: Could you explain some benefits of Repository Pattern?  Related To: ADO.NET
+Q46: How to solve Circular Reference?  Related To: C#
+Q47: Can you provide a simple explanation of methods vs. functions in OOP context?  
+Q48: Can you declare a private class in a namespace?  
+Q49: What is the difference between Association, Aggregation and Composition?  
+Q50: In terms that an OOP programmer would understand (without any functional programming background), what is a monad?  
+Q51: You have defined a destructor in a class that you have developed by using the C#, but the destructor never executed. Why?  Related To: C#
+Q52: What does it mean to Program to an Interface?  
+Q53: Why prefer Composition over Inheritance? What trade-offs are there for each approach? When should you choose Inheritance over Composition?  
+Q54: What is LSP (Liskov Substitution Principle) and what are some examples of its use (good and bad)?  
+Q55: What is the difference between a Mixin and Inheritance?  
+Q56: Could you elaborate Polymorphism vs Overriding vs Overloading?  
+Q57: Why doesn't C# allow static methods to implement an interface?  Related To: C#
+Q58: How do I test a private function or a class that has private methods, fields or inner classes?  Related To: Software Architecture, Software Testing
+-----------------LINQ-----------------
+Q1: Explain what is LINQ? Why is it required?  
+Q2: What are the types of LINQ?  
+Q3: What is LINQ in C#?  Related To: C#
+Q4: Explain what is the purpose of LINQ providers in LINQ?  
+Q5: What is Anonymous function?  
+Q6: List out the three main components of LINQ?  
+Q7: Explain how LINQ is useful than Stored Procedures?  
+Q8: What are Extension Methods?  
+Q9: Explain why SELECT clause comes after FROM clause in LINQ?  
+Q10: In LINQ how will you find the index of the element using where() with Lambda Expressions?  
+Q11: Mention what is the role of DataContext classes in LINQ?  
+Q12:  What are Anonymous Types?  
+Q13: Explain what is LINQ to Objects?  
+Q14: Could you explian what is the exact deference between deferred execution and Lazy evaluation in C#?  
+Q15: When to use First() and when to use FirstOrDefault() with LINQ?  
+Q16: Explain how standard query operators useful in LINQ?  
+Q17: Define what is let clause?  
+Q18: Explain what is the difference between Skip() and SkipWhile() extension method?  
+Q19: What is the difference between First() and Take(1)?  
+Q20: Could you compare Entity Framework vs LINQ to SQL vs ADO.NET with stored procedures?  
+Q21: Explain what is Lambda Expressions in LINQ?  
+Q22: What is Expression Trees and how they used in LINQ?  
+Q23: Explain what are LINQ compiled queries?  
+Q24: When trying to decide between using the Entity Framework and LINQ to SQL as an ORM, what's the difference?  
+Q25: Explain the difference between Select and Where  Related To: C#
+Q26: When should I use a CompiledQuery?  
+Q27: Name some advantages of LINQ over Stored Procedures  
+Q28: What is an equivalent to the let keyword in chained LINQ extension method calls?  
+Q29: What are the benefits of a Deferred Execution in LINQ?  Related To: C#
+Q30: Name some disadvantages of LINQ over Stored Procedures  
+Q31: What is the difference between Select and SelectMany?  
+Q32: Why use AsEnumerable() rather than casting to IEnumerable<T>?  
+Q33: What is the difference between returning IQueryable<T> vs. IEnumerable<T>?  
+Q34: Can you provide a concise distinction between anonymous method and lambda expressions?  
+Code Challenges
+Q1: Filter out the first 3 even numbers from the list using LINQ  Related To: C#
+Q2: Using LINQ to remove elements from a List<T>  
+Q3: Get the indexes of top n items where item value = true  
+
+-----------------SQL-----------------
+Q1: What is a VIEW?  
+Q2: Define a Temp Table   
+Q3: What is PRIMARY KEY?  
+Q4: What is DEFAULT?  
+Q5: What is FOREIGN KEY?  
+Q6: What is Normalisation?  Related To: Databases
+Q7: What is the difference between TRUNCATE and DELETE?  Related To: MySQL
+Q8: What is the difference between Data Definition Language (DDL) and Data Manipulation Language (DML)?  Related To: MySQL, T-SQL, Databases
+Q9: What is the difference between JOIN and UNION?  
+Q10: Discuss INNER JOIN ON vs WHERE clause (with multiple FROM tables)  
+Q11: Describe the difference between truncate and delete   
+Q12: What is the difference between INNER JOIN, OUTER JOIN, FULL OUTER JOIN?  
+Q13: What is the difference between UNION and UNION ALL?   
+Q14: Define ACID Properties  Related To: Databases
+Q15: How a database index can help performance?  Related To: Databases
+Q16: What is Denormalization?  Related To: Databases
+Q17: What is the difference between WHERE clause and HAVING clause?  
+Q18: What are the difference between Clustered and a Non-clustered index?  Related To: Databases
+Q19: How does a Hash index work?  
+Q20: What is the difference between INNER JOIN and OUTER JOIN?  
+Q21: What is Collation?  
+Q22: What's the difference between a Primary Key and a Unique Key?  Related To: Databases
+Q23: How can VIEW be used to provide security layer for your app?  Related To: MySQL
+Q24: What is the cost of having a database index?  Related To: Databases
+Q25: Explain the difference between Exclusive Lock and Update Lock  Related To: Databases
+Q26: How does B-trees Index work?  Related To: Databases
+Q27: What is the difference among UNION, MINUS and INTERSECT?  
+Q28: What is faster, one big query or many small queries?  Related To: MySQL
+Q29: What are some other types of Indexes (vs B-Trees)?  Related To: Databases
+Q30: Name some disadvantages of a Hash index  Related To: Databases
+Q31: What is Optimistic Locking and Pessimistic Locking?  Related To: Databases
+Q32: How does database Indexing work?  Related To: Databases
+Q33: What is the difference between B-Tree, R-Tree and Hash indexing?  Related To: Databases
+Code Challenges
+Q1: Find duplicate values in a SQL table  Related To: MySQL
+Q2: How to select first 5 records from a table?  
+Q3: How to generate row number in SQL without ROWNUM  
+Q4: How can I do an UPDATE statement with JOIN in SQL?  
+Q5: How can we transpose a table using SQL (changing rows to column or vice-versa)?  
+Q6: How does TRUNCATE and DELETE operations effect Identity?  Related To: T-SQL
+Q7: Delete duplicate values in a SQL table  
+Q8: What would happen without an Index?  
+Q9: Select first row in each GROUP BY group (greatest-n-per-group problem)?  
+
+-----------------Entity Framework-----------------
+Q1: What are the benefits of using EF?  
+Q2: What is Entity Framework?  
+Q3: What is Storage Model?  
+Q4: What are scalar and navigation properties in Entity Framework?  
+Q5: What is migration in Entity Framework?  
+Q6: What is the purpose of a DBContext class?  
+Q7: Mention in what all scenarios Entity Framework can be applicable?  
+Q8: What is Conceptual Model?  
+Q9: What is Mapping?  
+Q10: What is pluralize and singularize in the Entity Framework?  
+Q11: Mention what is Code First Approach and Model First Approach in Entity Framework?  
+Q12: What is Code First approach in Entity Framework?  
+Q13: Explain Lazy Loading, Eager Loading, and Explicit Loading?  
+Q14: What are the advantages of Model First Approach?  
+Q15: What is Eager Loading?  
+Q16: What are the advantages/disadvantages of Code First Approach?  
+Q17: Explain how you can load related entities in EF?  
+Q18: What are the components of Entity Framework Architecture?  
+Q19: What is the role of Entity Client Data Provider?  
+Q20: What is the importance of EDMX file in Entity Framework?  
+Q21: How can we handle concurrency in Entity Framework?  
+Q22: What are POCO classes in Entity Framework?  
+Q23: Could you explain the difference between Optimistic vs Pessimistic locking?  
+Q24: What is Optimistic Locking?  Related To: Databases
+Q25: What are complex types in Entity Framework?  
+Q26: What are the different approaches supported in the Entity Framework to create Entity Model?  
+Q27: What is EF Data Access Architecture?  
+Q28: Can you explain Lazy Loading in a detailed manner?  
+Q29: What are the advantages and disadvantages of Database First Approach?  
+Q30: What is the difference between ObjectContext and DbContext?  
+Q31: What is faster - ADO.NET or ADO.NET Entity Framework?  
+Q32: What is the difference between POCO, Code First, and simple EF approach?  
+Q33: Could you explain Pessimistic locking?  
+Q34: What’s the difference between LINQ to SQL and Entity Framework?  
+Q35: What is the difference between Code First, Model First and Database First?  
+Q36: What are the disadvantages of using static DbContext?  
+Q37: Which type of loading is good in which scenario?  
+Q38: Can you explain CSDL, SSDL and MSL sections in an EDMX file?  
+Q39: What are T4 templates?  
+Q40: Is DbContext thread safe?  
+Q41: How can you enhance the performance of Entity Framework?  
+Q42: When would you use EF6 vs EF Core?  
+Q43: Name some differences between Express vs Recoverable messages  
+Q44: What types of system generated messages do you know?  
+Q45: When would you use SaveChanges(false) + AcceptAllChanges()?  
+Q46: How can we do pessimistic locking in Entity Framework?  
+Q47: What is the difference between Automatic Migration vs Code-base Migration?  
+Q48: What are the advantages and disadvantages of creating a Global Entities Context for the application (i.e. one static instance)?  
+Q49: Can I use Entity Framework 6 in .Net Core?  
+Q50: What's the difference between .SaveChanges() and .AcceptAllChanges()?  
+Q51: What is client wins and store wins mode in Entity Framework concurrency?  
+Q52: What difference does .AsNoTracking() make?  
+Code Challenges
+Q1: What are the different ways of creating these domain/entity objects?  
+Q2: How do I delete multiple rows in Entity Framework (without foreach)?  
+Q3: How do I view the SQL generated by the Entity Framework?  
+-----------------ASP.NET MVC-----------------
+Q1: What is Layout in MVC?  
+Q2: What is ASP.NET MVC?  
+Q3: What is Razor Pages?  
+Q4: What is the use of ViewModel in MVC?  
+Q5: Can you explain Model, Controller and View in MVC?  
+Q6: What are Scaffold templates in MVC?  
+Q7: Explain Sections is MVC?  
+Q8: What are the advantages of MVC over ASP.NET?  
+Q9: Explain Bundle.Config in MVC?  
+Q10: What is Razor View Engine?  
+Q11: What are Actions in MVC?  
+Q12: What are NonAction methods in MVC?  
+Q13: What you mean by Routing in MVC?  
+Q14: Can a view be shared across multiple controllers? If Yes, How we can do that?  
+Q15: Can you explain the page life cycle of MVC?  
+Q16: What are HTML Helpers in MVC?  
+Q17: Explain ASP.NET WebAPI vs MVC  
+Q18: What is PartialView in MVC?  
+Q19: Explain the methods used to render the views in MVC?  
+Q20: Can you explain RenderBody and RenderPage in MVC?  
+Q21: What is the difference between ViewBag and ViewData in MVC?  
+Q22: What is Attribute Routing in MVC?  
+Q23: What is the HelperPage.IsAjax Property?  
+Q24: What is the difference between ViewResult() and ActionResult() in ASP.NET MVC?  
+Q25: What are some of the advantages of using ASP.NET MVC vs Web Forms?  
+Q26: Explain the difference between MVC vs ASP.NET Web API  Related To: ASP.NET Web API
+Q27: What about MVC in .NET Core?  Related To: .NET Core
+Q28: Is it possible to create web application with both WebForms and MVC?  Related To: ASP.NET
+Q29: How route table has been created in ASP.NET MVC?  
+Q30: What is the difference between ViewData and TempData?  
+Q31: What are Validation Annotations?  
+Q32: What is Separation of Concerns in ASP.NET MVC?  
+Q33: What are AJAX Helpers in MVC?  
+Q34: Explain Dependency Resolution in MVC?  
+Q35: Why to use Html.Partial in MVC?  
+Q36: What is the difference between Html.Partial vs Html.RenderPartial & Html.Action vs Html.RenderAction?  
+
+-----------------ASP.NET Web API-----------------
+Q1: What is ASP.NET Web API?  
+Q2: Explain the usage of HttpResponseMessage?  
+Q3: What New Features are Introduced in ASP.NET Web API 2.0?  
+Q4: Which status code used for all uncaught exceptions by default?  
+Q5: What are the Advantages of Using ASP.NET Web API?  
+Q6: What are main return types supported in Web API?  
+Q7: What is the difference between ApiController and Controller?  
+Q8: What exactly is OAuth (Open Authorization)?  
+Q9: Name types of Action Results in Web API 2  
+Q10: Compare WCF vs ASP.NET Web API?  Related To: WCF
+Q11: Explain the difference between MVC vs ASP.NET Web API  Related To: ASP.NET MVC
+Q12: What are the differences between Web API and Web API 2?  
+Q13: Explain the difference between WCF RESTful Service vs ASP.NET Web API?  
+Q14: What is Attribute Routing in ASP.NET Web API 2.0?  
+Q15: Is it True that ASP.NET Web API has Replaced WCF?  Related To: WCF
+Q16: Explain briefly CORS (Cross-Origin Resource Sharing)?  Related To: Web Security
+Q17: Can we use Web API with ASP.NET Web Form?  
+Q18: How to Return View from ASP.NET Web API Method?  
+Q19: How to register exception filter globally?  
+Q20: What is Delegating Handler?  
+Q21: What is ASP.NET Web API OData?  
+Q22: Why are the FromBody and FromUri attributes needed in ASP.NET Web API?  
+Q23: What's the difference between OpenID and OAuth?  Related To: Web Security
+Q24: Why should I use IHttpActionResult instead of HttpResponseMessage?  
+Q25: Explain the difference between WCF, Web API, WCF REST and Web Service?  Related To: API Design, REST & RESTful
+Q26: Could you clarify what is the best practice with Web API error management?  
+Q27: Explain advantages/disadvantages of using HttpModule vs DelegatingHandler?  
+Q28: Explain briefly OWIN (Open Web Interface for .NET) Self Hosting?  
+Q29: What is difference between WCF and Web API and WCF REST and Web Service?  
+Code Challenges
+Q1: How to restrict access to Web API method to specific HTTP verb?  
+Q2: How can we provide an alias name for ASP.NET Web API Action?  
+-----------------Typescript-----------------
+Q1:  What is TypeScript and why one should use it?  
+Q2: List the built-in types in Typescript  
+Q3: Explain generics in TypeScript  
+Q4: What are Modules in Typescript?  
+Q5: What is TypeScript and why would I use it in place of JavaScript?  
+Q6: Do we need to compile TypeScript files and why?  
+Q7: What are the benefits of TypeScript?  
+Q8: How to call base class constructor from child class in TypeScript?  
+Q9: What is TypeScript and why do we need it?  
+Q10: What is the difference between Classes and Interfaces in Typescript?  
+Q11: What is Interface in TypeScript?  
+Q12: What is Decorators in TypeScript?  
+Q13: What are the difference beetween Typescript and JavaScript?  
+Q14: When to use interfaces and when to use classes in TypeScript?  
+Q15: How to implement class constants in TypeScript?  
+Q16: How could you check null and undefined in TypeScript?  
+Q17: Does TypeScript support all object oriented principles?  
+Q18: Which object oriented terms are supported by TypeScript?  
+Q19: What is getters/setters in TypeScript?  
+Q20: Could we use TypeScript on backend and how?  
+Q21: What is a TypeScript Map file?  
+Q22: Explain how and why we could use property decorators in TS?  
+Q23: What is Typings in Typescript?  
+Q24: Is that TypeScript code valid? Explain why.  
+Q25: How can you allow classes defined in a module to be accessible outside of the module?  
+Q26: How TypeScript is optionally statically typed language?  
+Q27: What is the default access modifier for members of a class in TypeScript?  
+Q28: What are different components of TypeScript?  
+Q29: How to use external plain JavaScript libraries in TypeScript?  
+Q30: Does TypeScript supports function overloading?  
+Q31: What is the difference between interface vs type statements?  
+Q32: What is one thing you would change about TypeScript?  
+Q33: Explain when to use declare keyword in TypeScript  
+Q34: Is it possible to generate TypeScript declaration files from JS library?  
+Q35: What are Ambients in TypeScripts and when to use them?  
+Code Challenges
+Q1: What's wrong with that code?  
+Q2: Are strongly-typed functions as parameters possible in TypeScript?  
+Q3: Explain why that code is marked as WRONG?  
+Q4: How would you overload a class constructor in TypeScript?  
+-----------------Angular-----------------
+Q1: What is Routing Guard in Angular?  
+Q2: What is a Module, and what does it contain?  
+Q3: What's the difference between an Angular Component and Module?  
+Q4: What is the minimum definition of a Component?  
+Q5: What is a Component? Why would you use it?  
+Q6: What is a Service, and when will you use it?  
+Q7: What are the differences between AngularJS (angular 1.x) and Angular (Angular 2.x and beyond)?  
+Q8: What is the equivalent of ngShow and ngHide in Angular?  
+Q9: What is the difference between @Component and @Directive in Angular?   
+Q10: You have an HTML response I want to display. How do I do that?   
+Q11: What is the difference between *ngIf vs [hidden]?  
+Q12: How would you run unit test?  
+Q13: How would you protect a component being activated through the router?  
+Q14: What are Observables?  
+Q15: What is Interpolation?  
+Q16: What is an Observer?  
+Q17: What is the difference between Structural and Attribute directives in Angular?  
+Q18: What is a bootstrapping module?  
+Q19: What is the purpose of base href tag?  
+Q20: What is an Observable?  
+Q21: Explain the difference between Constructor and ngOnInit  
+Q22: What is the difference between @Component and @Directive in Angular?  
+Q23:  Explain the difference between Promise and Observable in Angular?  
+Q24: Why should ngOnInit be used, if we already have a constructor?  
+Q25: What is difference between declarations, providers and import in NgModule?  
+Q26: Can you explain the difference between Promise and Observable in Angular? In what scenario can we use each case?  
+Q27: What's new in Angular 6 and why shall we upgrade to it?  
+Q28: What is Redux and how does it relate to an Angular app?  
+Q29: What is the use of Codelyzer?  
+Q30: What is TestBed?  
+Q31: What is AOT?  
+Q32: Why would you use a spy in a test?  
+Q33: When would you use eager module loading?  
+Q34: What is Protractor?  
+Q35: How to inject base href?  
+Q36: What is Router Outlet?  
+Q37: What are the ways to control AOT compilation?  
+Q38: Do I always need a Routing Module?  
+Q39: What are the utility functions provided by RxJS?  
+Q40: What is Multicasting?  
+Q41: How do you categorize data binding types?  
+Q42: What is a Parameterized pipe?  
+Q43: Explain how Custom Elements works internally?  
+Q44: What is Activated route?  
+Q45: What is the purpose of Wildcard route?  
+Q46: What is Router State?  
+Q47: What are Custom elements?  
+Q48: What is the difference between promise and observable?  
+Q49: What happens if you use <script> tag inside template?  
+Q50: What is Subscribing?  
+Q51: What are dynamic components?  
+Q52: Why Incremental DOM has low memory footprint?  
+Q53: What is Angular Universal?  
+Q54: How do you perform error handling in Observables?  
+Q55: How do you perform Error Handling for HttpClient?  
+Q56: What is the option to choose between Inline and External template file?  
+Q57: What is Angular Ivy?  
+Q58: What is Bazel?  
+Q59: Explain Lazy Loading in Angular?  
+Q60: What are the lifecycle hooks for components and directives?  
+Q61: What is the need for SystemJS in Angular?  
+Q62: How to detect a route change in Angular?  
+Q63: Are there any pros/cons (especially performance-wise) in using local storage to replace cookie functionality?  
+Q64: What is Zone in Angular?  
+Q65: How do you create application to use scss?  
+Q66: Name and explain some Angular Module Loading examples  
+Q67: Why would you use lazy loading modules in Angular app?  
+Q68: What does detectChanges do in Angular Jasmine tests?  
+Q69: Why would you use renderer methods instead of using native element methods?  
+Q70: What is ngUpgrage?   
+Q71: What would be a good use for NgZone service?  
+Q72: What does a just-in-time (JIT) compiler do (in general)?  
+Q73: How would you insert an embedded view from a prepared TemplateRef?  
+Q74: When does a lazy loaded module is loaded?  
+Q75: What is Reactive Programming and how does it relate to Angular?  
+Q76: Name some security best practices in Angular  
+Q77: What is the difference between pure and impure pipe?  
+Q78: What are the mapping rules between Angular component and custom element?  
+Q79: What is Ivy Renderer?  
+Q80: Do I need to bootstrap custom elements?  
+Q81: What is Incremental DOM? How is it different from Virtual DOM?  
+Q82: What are the advantages with AOT?  
+Q83: Why do we need compilation process in Angular?  
+Q84: Why we should use Bazel for Angular builds?  
+Q85: Explain the purpose of Service Workers in Angular  
+Q86: Angular 9: What are some new features in Angular 9?  
+Q87: What is difference between Incremental DOM and Virtual DOM?  Related To: React
+Q88: Is there no equivalent to $scope.emit() or $scope.broadcast() in Angular?  
+Q89: What is the difference between BehaviorSubject vs Observable?  
+Q90: Name some differences between SystemJS vs webpack?  Related To: Webpack
+Q91: Could you provide some particular examples of using ngZone?  
+Q92: How would you extract webpack config from angular cli project?  
+Q93: Why Angular uses Url segment?  
+Q94: Do you know how you can run AngularJS and Angular side by side?  
+Q95: When to use query parameters versus matrix parameters in Url?  
+Q96: Just-in-Time (JIT) vs Ahead-of-Time (AOT) compilation. Explain the difference.  
+Q97: Why Incremental DOM is Tree Shakable?  
+Q98: Why did the Google team go with incremental DOM instead of virtual DOM?  
+Q99: What are observable creation functions?  
+Q100: What is Locality principle for Ivy?  
+Q101: How Would You Compare View Engine vs Ivy?  
+Q102: Angular 8: What are some changes in Location module?  
+Q103: Angular 9: Explain improvements in Tree-Shaking  
+Q104: How does Ivy affect the (Re)build time?  
+Code Challenges
+Q1: What are Pipes? Give me an example.  
+Q2: How can I select an element in a component template?  
+Q3: What does this line do?  
+Q4: How to bundle an Angular app for production?  
+Q5: How would you control size of an element on resize of the window in a component?  
+Q6: Could I use jQuery with Angular?  
+Q7: How to set headers for every request in Angular?  
+Q8: What is the Angular equivalent to an AngularJS $watch?  
+-----------------Design Patterns-----------------
+Q1: What is Design Patterns and why anyone should use them?  
+Q2: What are the main categories of Design Patterns?  
+Q3: What is a pattern?  
+Q4: What is Singleton pattern?  
+Q5: What is Dependency Injection?  
+Q6: What is Inversion of Control?  
+Q7: Can we create a clone of a singleton object?  
+Q8: What is Factory pattern?  
+Q9: Name types of Design Patterns?  
+Q10: What is Builder pattern?  
+Q11: What is Filter pattern?  
+Q12: What is Strategy pattern?  
+Q13: What is Template pattern?  
+Q14: What is Null Object pattern?  
+Q15: What is State pattern?  
+Q16: What is Iterator pattern?  
+Q17: What is Proxy pattern?  
+Q18: What is Abstract Factory pattern?  
+Q19: What is Adapter Pattern?  
+Q20: What is Bridge pattern?  
+Q21: What does program to interfaces, not implementations mean?  Related To: Software Architecture
+Q22: What is Decorator pattern?  
+Q23: What is Prototype pattern?  
+Q24: What is Facade pattern?  
+Q25: Can you give any good explanation what is the difference between Proxy and Decorator?  
+Q26: What are the difference between a Static class and a Singleton class?  
+Q27: When should I use Composite design pattern?  
+Q28: What is Mediator pattern?  
+Q29: What is Observer pattern?  
+Q30: What is Interpreter pattern?  
+Q31: What is the Chain of Responsibility pattern?  
+Q32: What is Memento pattern?  
+Q33: What is Command pattern?  
+Q34: What is Flyweight pattern?  
+Q35: When would you use the Builder Pattern? Why not just use a Factory Pattern?  
+Q36: How is Bridge pattern is different from Adapter pattern?  
+Q37: Why would I ever use a Chain of Responsibility over a Decorator?  
+Q38: What is the difference between Strategy design pattern and State design pattern?  
+Q39: Explain usage of Service Locator Pattern  
+Q40: Explain what is Composition over Inheritance?  
+Q41: What are best practices for Unit Testing methods that use cache heavily?  Related To: Software Testing, Layering & Middleware
+Q42: Explain difference between the Facade, Proxy, Adapter and Decorator design patterns?  
+Q43: What's the difference between the Dependency Injection and Service Locator patterns?  
+Q44: Could you explain the difference between Façade vs. Mediator?  
+Q45: What is the difference between the Template patterns and the Strategy pattern?  
+Q46: Could you explain what is the Deadly Diamond of Death?  
+ 
+ ----------Git----------------
+Q1: What is Git?  
+Q2: What is the command to write a commit message in Git?  
+Q3: What is difference between Git vs SVN?  
+Q4: What's the difference between a pull request and a branch?  
+Q5: What is the difference between git pull and git fetch?  
+Q6: How does the Centralized Workflow work?  
+Q7: What is Git fork? What is difference between fork, branch and clone?  
+Q8: Explain the advantages of Forking Workflow  
+Q9: When should I use git stash?  
+Q10: Tell me the difference between HEAD, working tree and index, in Git?  
+Q11: How to revert previous commit in git?  
+Q12: What is git cherry-pick?  
+Q13: Could you explain the Gitflow workflow?  
+Q14: What is a "bare git" repository?  
+Q15: What is difference between git stash pop and git stash apply?  
+Q16: What is the HEAD in Git?  
+Q17: Can you explain what git reset does in plain English?  
+Q18: When would you use git clone over git clone --mirror?  
+Q19: How do you make an existing repository bare?  
+Q20: What is the difference between git clone, git clone --bare and git clone --mirror?  
+Q21: When would you use git clone over git clone --bare?  
+Q22: When would you use git clone --bare over git clone --mirror?  
+Q23: When do you use git rebase instead of git merge?  
+Q24: Do you know how to easily undo a git rebase?   
+Q25: What are "git hooks"?  
+Q26: What are the type of git hooks?  
+Q27: How can you use git bisect to determine the source of a (regression) bug?  
+Q28: What is git bisect? How can you use it to determine the source of a (regression) bug?  
+Code Challenges
+Q1: You need to update your local repos. What git commands will you use?  
+Q2: How to undo the most recent commits in Git?  
+Q3: You need to rollback to a previous commit and don't care about recent changes. What commands should you use?  
+Q4: Write down a sequence of git commands for a "Rebase Workflow"  
+Q5: How to remove a file from git without removing it from your file system?  
+Q6: How to amend older Git commit?  
+Q7: Write down a git command to check difference between two commits  
+Q8: What git command do you need to use to know who changed certain lines in a specific file?  
+  
+-----------------------Agile & Scrum---------------------
+Q1: What is Sprint in Scrum?  
+Q2: What is User Stories?  
+Q3: What is Scrum?  
+Q4: What is an Agile iteration?  
+Q5: Name roles in Scrum  
+Q6: What is an Epic, User Stories and Task?  
+Q7: Explain what is Refactoring?  
+Q8: What is Agile?  
+Q9: How is Agile different from other software delivery aproaches?  
+Q10: Name some types of meetings or ceremonies in Scrum  
+Q11: Have you ever used Scrum Task Board?  
+Q12: What is Sprint Planning?  
+Q13: Explain difference between a Product and a Sprint Backlog  
+Q14: Mention the key difference between sprint backlog and product backlog?  
+Q15: Mention what should a burndown chart should highlight?  
+Q16: Explain what are Burn-Up and Burn-Down chart?  
+Q17: Explain what is Velocity in Agile?  
+Q18: What is Test Driven Development?  Related To: Software Architecture
+Q19: Explain what does it mean by product roadmap?  
+Q20: If a timebox plan needs to be reprioritized who should re-prioritise it?  
+Q21: What is Story Points/Efforts/Scales?  
+Q22: What are some methodologies used to implement Agile?  
+Q23: What is the Agile Manifesto?  
+Q24: What are four Agile Manifesto values?  
+Q25: What does project Velocity mean?  
+Q26: What is a Sprint Review?  
+Q27: Can you explain the purpose of a Burndown Chart?  
+Q28: What does the Scrum Framework consist from?  
+Q29: What is Acceptance Criteria?  
+Q30: Mention what are the advantages of maintaining consistent iteration length throughout the project?  
+Q31: Mention what are the challenges involved in Agile software development?  
+Q32: Explain the difference between Extreme Programming and Scrum?  
+Q33: Mention in detail what are the role’s of Scrum Master?  
+Q34: Name the 12 Agile Principles  
+Q35: What the Scrum theory is based on?  
+Q36: What is Scrum Increment?  
+Q37: Explain main differences between Scrum and Agile?  
+Q38: What are the Scrum Values?  
+Q39: What is a Sprint Retrospective?  
+Q40: Why Continuous Integration is important for Agile?  Related To: DevOps
+Q41: In Agile mention what is the difference between the Incremental and Iterative development?  
+Q42: Mention what are the Agile quality strategies?  
+Q43: When not to use Agile?  
+Q44: What is the Scrum's definition of Done?  
+Q45: What are the benefits of Burn Up Chart?  
+Q46: Explain what is Spike and Zero Sprint in Agile? What is the purpose of it?  
+Code Challenges
+Q1: Provide some examples of burn-up chart  
+
+----------------DevOps----------------
+Q1: Are you more Dev or Ops?  
+Q2: Explain what is DevOps ?  
+Q3: What is the most important thing DevOps helps us achieve?  
+Q4: What is meant by Continuous Integration?  
+Q5: What is the need for DevOps?  
+Q6: What is Kubernetes? Why organizations are using it?  Related To: Kubernetes
+Q7: What is DevOps engineer's duty with regards to Agile development?  
+Q8: How is DevOps different from Agile/SDLC?  
+Q9: Which are the top DevOps tools? Which tools have you worked on?  
+Q10: What are the advantages of DevOps?  
+Q11: Can we consider DevOps as an Agile methodology?  
+Q12: Mention what are the key aspects or principle behind DevOps?  
+Q13: What are the success factors for Continuous Integration?  
+Q14: What does Containerization mean?  
+Q15: What is the function of CI (Continuous Integration) server?  
+Q16: Why is Continuous monitoring necessary?  
+Q17: How have you handled failed deployments?  
+Q18: What is post mortem meetings?  
+Q19: What is the role of a configuration management tool in DevOps?  
+Q20: What's the next thing you would automate in your current workflow?  
+Q21: What's the difference between a blue/green deployment and a rolling deployment?  
+Q22: Classify Cloud Platforms by category  
+Q23: What is Chef?  
+Q24: Explain a use case for Docker  
+Q25: How would you make key aspects of a software system traceable?  
+Q26: What is the difference between resource allocation and resource provisioning?  
+Q27: How do all DevOps tools work together?  
+Q28: How would you assess how “deployable” a system is?  
+Q29: How would you prepare for a migration from one platform to another?  
+Q30: If something breaks in production, how do you know about it?  
+Q31: Explain Blue-Green Deployment Technique  
+Q32: What are the differences between continuous integration, continuous delivery, and continuous deployment?  
+Q33: Tell me about the worst-run/best-run outage you’ve been a part of. What made it bad/well-run?  
+Q34: What do you know about serverless model?  
+Q35: What is the difference between Kubernetes and Docker?  Related To: Docker, Kubernetes
+Q36: Which problems does a container orchestration solve?  Related To: Docker, Kubernetes
+Q37: How would you deploy software to 5000 nodes?  
+Q38: What is Vagrant and what is it used for?  
+Q39: How is container different from a virtual machine?  
+Q40: What is Continuous Monitoring?  
+Q41: Why Continuous Integration is important for Agile?  Related To: Agile & Scrum
+Q42: How would you introduce Continuous Delivery in a successful, huge company for which the change from Waterfall to Continuous Delivery would be not trivial, because of the size and complexity of the business?  
+Q43: What is Canary Releasing?  
+Q44: Can you explain a relationship between container runtime and container orchestration?  Related To: Docker, Kubernetes
+
+
+-----------------HTML-----------------
+Q1: What is an iframe and how it works?  
+Q2: Explain meta tags in HTML  
+Q3: What is the purpose of the alt attribute on images?  
+Q4: What is the difference between span and div?  
+Q5: How Can I Get Indexed Better by Search Engines?  
+Q6: What were some of the key goals and motivations for the HTML5 specification?  
+Q7: How can you highlight text in HTML?  
+Q8: Briefly describe the correct usage of the following HTML5 semantic elements: <header>, <article>, <section>, <footer>  
+Q9: What is Character Encoding?  
+Q10: What is a self closing tag?   
+Q11: hat's the difference between an "attribute" and a "property" in HTML?  
+Q12: When is it appropriate to use the small element?  
+Q13: Explain the difference between block elements and inline elements  
+Q14: Explain almost standard, full standard and quirks mode  
+Q15: How do you set IE compatibility mode?  
+Q16: What's new in HTML 5?  
+Q17: Have you used different HTML templating languages before?  
+Q18: How do you serve a page with content in multiple languages?  
+Q19: How do you change the direction of html text?  
+Q20: What is an optional tag?  
+Q21: What is the difference between <section> and <div>?  
+Q22: What are defer and async attributes on a <script> tag?  
+Q23: What is the purpose of cache busting and how can you achieve it?  
+Q24: What are some differences that XHTML has compared to HTML?  
+Q25: What are Web Workers?  
+Q26: Where and why is the rel="noopener" attribute used?  
+Q27: What is WebSQL?  
+Q28: What does a DOCTYPE do?  
+Q29: Describe the difference between a 'cookie', 'sessionStorage' and 'localStorage'.  
+Q30: What is the DOM?  
+Q31: What is HTML5 Web Storage? Explain localStorage and sessionStorage.  
+Q32: Explain the difference between cookies, session and local storage  
+Q33: Can a web page contain multiple <header> elements? What about <footer> elements?  
+Q34: What are data- attributes good for?  
+Q35: Discuss the differences between an HTML specification and a browser’s implementation thereof.  
+Q36: What is WebSQL?  
+Q37: What is the purpose of 'main' element?  
+Q38: What are the building blocks of HTML5?  
+Q39: Why to use HTML5 semantic tags?  
+Q40: Describe the difference between , and .  
+Q41: What is an HTML preprocessor and are you using it?  
+Q42: What is progressive rendering?  
+Q43: Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.  
+Q44: What kind of things must you be wary of when designing or developing for multilingual sites?  
+Q45: What is WebP?  
+Q46: How would you select svg or canvas for your site?  
+Q47: Why do I need a doctype and what does it do?  
+Q48: What's the difference between Full Standard, Almost Standard and Quirks Mode?  
+Q49: Could you generate a public key in HTML?  
+Q50: Why is it generally a good idea to position CSS s between and JS s just before ? Do you know any exceptions?  
+Q51: What is an IndexedDB?  
+Q52: What is accessibility & ARIA role means in a web application?  
+Q53: What are Web Components?  
+Code Challenges
+Q1: Write a HTML table tag sequence that outputs the following  
+Q2: Check HTML Markup Validity  
+-----------------CSS-----------------
+
+Theoretical Questions
+Q1: Explain the three main ways to apply CSS styles to a web page  
+Q2: What is CSS?  
+Q3: How to use variables in Sass?  
+Q4: Explain CSS sprites, and how you would implement them on a page or site  
+Q5: Explain the CSS box model and the layout components that it consists of  
+Q6: Have you played around with the new CSS Flexbox or Grid specs?  
+Q7: Explain what is a @extend directive used for in Sass?  
+Q8: List out the key features for Sass  
+Q9: What is the difference between classes and IDs in CSS?  
+Q10: What is a CSS rule?  
+Q11: What is Sass?  
+Q12: What existing CSS frameworks have you used locally, or in production? How would you change/improve them?  
+Q13: Describe floats and how they work  
+Q14: What Selector Nesting in Sass is used for?  
+Q15: What is DOM (Document Object Model) and how is it linked to CSS?  
+Q16: List out the data types that Sass supports  
+Q17: Explain the usage of table-layout property  
+Q18: What's the difference between SCSS and Sass?  
+Q19: What are the advantages/disadvantages of using CSS preprocessors?  
+Q20: Have you ever worked with retina graphics? If so, when and what techniques did you use?  
+Q21: What's the difference between a relative, fixed, absolute and statically positioned element?  
+Q22: What is CSS preprocessor and why to user one?  
+Q23: What’s the difference between resetting and normalizing CSS? Which would you choose, and why?  
+Q24: What does Accessibility (a11y) mean?  
+Q25: How is responsive design different from adaptive design?  
+Q26: What is CSS selectors? Name some.  
+Q27: Describe pseudo-elements and discuss what they are used for  
+Q28: How does CSS actually work (under the hood of browser)?  
+Q29: Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.  
+Q30: What is a Grid System in CSS?  
+Q31: How would you approach fixing browser-specific styling issues?  
+Q32: What does * { box-sizing: border-box; } do? What are its advantages?  
+Q33: Explain the purpose of clearing floats in CSS  
+Q34: Can you explain the difference between coding a website to be responsive versus using a mobile-first strategy?  
+Q35: Explain the basic rules of CSS Specificity  
+Q36: What are the different ways to visually hide content (and make it available only for screen readers)?  
+Q37: How do you optimize your webpages for print?  
+Q38: Have you ever used a grid system, and if so, what do you prefer?  
+Q39: Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?  
+Q40: Describe z-index and how a stacking context is formed  
+Code Challenges
+Q1: What is variable interpolation in Sass? Provide some examples.   
+Q2: What is a Mixin and how to use on?  
+Q3: How to create a zebra striped table with CSS?  
+Q4: What will be the CSS output for the following Sass code?  
+Q5: What the code fragment has the greater CSS specificity?   
+Q6: What is the @content directive used for?  
+Q7: Write down a selector that will match any links end in .zip, .ZIP, .Zip etc...  
+Q8: What’s wrong with Sass nesting? Provide some example.  
+Q9: What clearfix methods do you know? Provide some examples.  
+Q10: How to style every element which has an adjacent item right before it?  
+-----------------JS-----------------
+Theoretical Questions
+Q1: What is typeof operator?  
+Q2: What is the object type?  
+Q3: Explain arrays in JavaScript  
+Q4: What is Scope in JavaScript?  
+Q5: Explain equality in JavaScript  
+Q6: Explain what is Binary Search JSJavaPY Related To: Searching, Java
+Q7: Explain what is Linear (Sequential) Search and when may we use one? JSPY Related To: Searching, Python
+Q8: Explain Values and Types in JavaScript  
+Q9: What is let keyword in JavaScript?  
+Q10: Explain Null and Undefined in JavaScript  
+Q11: What is strict mode?  
+Q12: What is a Polyfill?  
+Q13: Explain event bubbling and how one may prevent it  
+Q14: What does use strict do?  
+Q15: What language constructions do you use for iterating over object properties and array items?  
+Q16: Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?  
+Q17: What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?  
+Q18: Why would you use something like the load event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?  
+Q19: Explain the same-origin policy with regards to JavaScript.  
+Q20: What's the difference between throw Error('msg') vs throw new Error('msg')?  
+Q21: What is the difference between == and ===?  
+Q22: Is there anyway to force using strict mode in Node.js?  
+Q23: What's the difference between Host objects and Native objects?  
+Q24: Explain what is Interpolation Search JSPY Related To: Searching, Python
+Q25: What is a Jump (or Block) Search? JSJavaPY Related To: Searching, Python
+Q26: What is the difference between a shim and a polyfill?  
+Q27: What is IIFEs (Immediately Invoked Function Expressions)?  
+Q28: What is Coercion in JavaScript?  
+Q29: What is the difference between Anonymous and Named functions?   
+Q30: Describe Closure concept in JavaScript as best as you could  
+Q31: How to compare two objects in JavaScript?  
+Q32: Could you explain the difference between ES5 and ES6  
+Q33: What will be the output of the following code?  
+Q34: What is the drawback of creating true private in JavaScript?  
+Q35: Explain the difference between undefined and not defined in JavaScript  
+Q36: What will be the output of the following code?  
+Q37: What are the advantages and disadvantages of using use strict?  
+Q38: What is the definition of a Higher-Order Function?  
+Q39: Explain the differences on the usage of foo between function foo() {} and var foo = function() {}  
+Q40: What's the difference between using let and var to declare a variable in ES6?  
+Q41: What are the benefits of using spread syntax in ES6 and how is it different from rest syntax?  
+Q42: What is Currying?  
+Q43: What are the differences between ES6 class and ES5 function constructors?  
+Q44: When should I use Arrow Functions in ES6?  
+Q45: What is the motivation for bringing Symbol to ES6?  
+Q46: What's the difference between .call and .apply?  
+Q47: Why should we use ES6 classes?  
+Q48: What do you think of AMD vs CommonJS?  
+Q49: What is the preferred syntax for defining enums in JavaScript?  
+Q50: When should we use generators in ES6?  
+Q51: What's a typical use case for anonymous functions?  
+Q52: What is a closure, and how/why would you use one?  
+Q53: Explain the difference between Object.freeze() vs const  
+Q54: Why is extending built-in JavaScript objects not a good idea?  
+Q55: What is generator in JS?  
+Q56: Explain Function.prototype.bind.  
+Q57: Suggest one simple way of removing duplicates from an array using ES6  
+Q58: What is the difference between document load event and document DOMContentLoaded event?  
+Q59: What advantages are using arrow functions?  
+Q60: What is the purpose of setTimeout function?  Related To: Node.js
+Q61: What is the new keyword in JavaScript?  
+Q62: Explain Prototype Inheritance in JavaScript?  
+Q63: What does the term Transpiling stand for?  
+Q64: What is Hoisting in JavaScript?  
+Q65: Check if a given string is a isomorphic  
+Q66: Explain what is Hoisting in Javascript  
+Q67: Explain the Prototype Design Pattern  
+Q68: Describe the JS module design pattern  
+Q69: What are the actual uses of ES6 WeakMap?  
+Q70: How can you share code between files?  
+Q71: What is the Temporal Dead Zone in ES6?  
+Q72: When should you NOT use arrow functions in ES6? Name three or more cases.  
+Q73: Can you give an example for destructuring an object or an array in ES6?  
+Q74: Explain how JSONP works (and how it's not really Ajax)  
+Q75: Can you describe the main difference between a .forEach loop and a .map() loop and why you would pick one versus the other?  
+Q76: Could you compare usage of Module Pattern vs Constructor/Prototype pattern?  
+Q77: Explain difference between: function Person(){}, var person = Person(), and var person = new Person()?  
+Q78: What's the difference between a variable that is: null, undefined or undeclared? How would you go about checking for any of these states?  
+Q79: What tools can be used to assure consistent code style?  
+Q80: What's the difference between ES6 Map and WeakMap?  
+Q81: Can you give an example of a curry function and why this syntax offers an advantage?  
+Q82: In JavaScript, why is the this operator inconsistent?  
+Q83: What is the difference between the await keyword and the yield keyword?   
+Q84: Compare Async/Await and Generators usage to achive same functionality  
+Q85: Is it possible to reset an ECMAScript 6 generator to its initial state?  
+Q86: How to deep-freeze object in JavaScript?  
+Q87: Is JavaScript a pass-by-reference or pass-by-value language?  
+Code Challenges
+Q1: Explain how Bubble Sort works JSPY Related To: Sorting
+Q2: Lucky sevens  
+Q3: Simple clock angle  
+Q4: Sum of several arrays  
+Q5: Test divisors of three  
+Q6: Oddball sum  
+Q7: Sum of Array Plus One  
+Q8: String Rotation  
+Q9: Return the N-th value of the Fibonacci sequence. Solve in O(n) time JSJavaPY Related To: Fibonacci Series, Data Structures, Python
+Q10: Return the N-th value of the Fibonacci sequence Recursively JSJavaPY Related To: Fibonacci Series, Data Structures, Java
+Q11: Implement a Queue using two Stacks CSJSJavaPY Related To: Queues, Stacks, Java, C#
+Q12: Explain how Insertion Sort works JSJavaPY Related To: Sorting, Python
+Q13: Given a string, reverse each word in the sentence  
+Q14: Find the missing number in O(n) time  
+Q15: Remove duplicates of an array and return an array of only unique elements  
+Q16: Implement enqueue and dequeue using only two stacks  
+Q17: How to check if an object is an array or not? Provide some code.  
+Q18: How to empty an array in JavaScript?  
+Q19: Write a "mul" function which will properly when invoked as below syntax  
+Q20: Write a function that would allow you to do this?  
+Q21: Explain what a callback function is and provide a simple example  
+Q22: How would you check if a number is an integer?  
+Q23: Make this work  
+Q24: Two sum problem  
+Q25: Determine overlapping numbers in ranges  
+Q26: Stock maximum profit  
+Q27: Tree Level Order Print  
+Q28: Step-by-step solution for step counting using recursion  
+Q29: Implement Bubble Sort  
+Q30: Get the N-th Fibonacci number with O(n) time and O(1) space complexity JSPY Related To: Fibonacci Series
+Q31: Explain how Merge Sort works JSPY Related To: Divide & Conquer, Sorting
+Q32: How to merge two sorted Arrays into a Sorted Array? JSJavaPY Related To: Arrays, Data Structures, Java, Python
+Q33: Explain how Heap Sort works JSPY Related To: Heaps and Maps, Sorting, Data Structures
+Q34: LIS: Find length of the longest increasing subsequence (LIS) in the array. Solve using DP. JSJavaPY Related To: Dynamic Programming, Data Structures, Python
+Q35: Find all the Permutations of a String JSJavaPY Related To: Backtracking, Strings, Data Structures, Java, Python
+Q36: Write a program for Recursive Binary Search JSJavaPY Related To: Searching, Java, Python
+Q37: Check if parentheses are balanced using Stack JSJavaPY Related To: Stacks, Java, Python
+Q38: Provide some examples of non-bulean value coercion to a boolean one  
+Q39: Given an array of integers, find the largest product yielded from three of the integers  
+Q40: Find the intersection of two arrays  
+Q41: Given two strings, return true if they are anagrams of one another  
+Q42: Write a recursive function that returns the binary string of a given decimal number  
+Q43: Given an array of integers, find the largest difference between two elements such that the element of lesser value must come before the greater element  
+Q44: Check if a given string is a palindrome. Case sensitivity should be taken into account.  
+Q45: What will be the output of the following code?  
+Q46: What will the following code output?  
+Q47: How would you use a closure to create a private counter?  
+Q48: Write a function that would allow you to do this  
+Q49: FizzBuzz Challenge  
+Q50: All Permutations (Anagrams) of a String  
+Q51: Find all string combinations consisting only of 0, 1 and ?  
+Q52: Generate all balanced bracket combinations  
+Q53: Implement a queue using two stacks  
+Q54: Throttle Function Implementation  
+Q55: Find Word Positions in Text  
+Q56: Merge two sorted linked lists  
+Q57: Dutch national flag sorting problem  
+Q58: Insert an interval into a list of sorted disjoint intervals  
+Q59: Implement a queue using a linked list  
+Q60: Quickly calculate the cube root of 6 digit numbers  
+Q61: Implement pow(a,b) without multiplication or division  
+Q62: How to use Memoization for N-th Fibonacci number?  JSJava Related To: Dynamic Programming, Fibonacci Series, Recursion
+Q63: How to recursively reverse a Linked List? JSJavaPY Related To: Linked Lists, Recursion
+Q64: Explain how Radix Sort works JSPY Related To: Sorting, Python
+Q65: Explain how QuickSort works JSPY Related To: Divide & Conquer, Sorting, Data Structures
+Q66: Calculate n-th Fibonacci number using Tail Recursion JSJava Related To: Fibonacci Series
+Q67: Binet's formula: How to calculate Fibonacci numbers without Recursion or Iteration?  CSJSJavaPY Related To: Fibonacci Series, Data Structures, C#
+Q68: Explain what is Fibonacci Search technique? CSJSJavaPY Related To: Divide & Conquer, Fibonacci Series, Searching, Data Structures, C#
+Q69: Explain when and how to use Exponential (aka Doubling or Galloping) Search?  JSPY Related To: Searching
+Q70: How does the this keyword work? Provide some code examples  
+Q71: Create a function that will evaluate if a given expression has balanced parentheses using stacks  
+Q72: Write a recursive function that performs a binary search  
+Q73: Given an integer, determine if it is a power of 2. If so, return that number, else return -1  
+Q74: What will be the output of the following code?  
+Q75: What is Closure in JavaScript? Provide an example  
+Q76: What will be the output of the following code?  
+Q77: How would you create a private variable in JavaScript?  
+Q78: How would you add your own method to the Array object so the following code would work?  
+Q79: What will the following code output?  
+Q80: When would you use the bind function?  
+Q81: Explain why the following doesn't work as an IIFE. What needs to be changed to properly make it an IIFE?  
+Q82: Transform Word  
+Q83: Generating Fibonacci Sequence using ES6 generator functions JS Related To: Fibonacci Series
+Q84: Copy a Linked List with Random (Arbitrary) Pointer using O(1) Space JSJavaPY Related To: Linked Lists
+Q85: Describe the Revealing Module Pattern design pattern  
+-----------------WCF-----------------
+Q1: What is WCF?  
+Q2: Provide some scenarios when we could use WCF services  
+Q3: Could you name basic WCF service components?  
+Q4: What is a service contract in WCF?  
+Q5: What are the features and advantage of WCF?  
+Q6: Explain what is SOA?  
+Q7: What are WCF Service Endpoints?  
+Q8: Compare WCF vs ASP.NET Web API?  Related To: ASP.NET Web API
+Q9: Is it True that ASP.NET Web API has Replaced WCF?  Related To: ASP.NET Web API
+Q10: What is WCF Data Contract?  
+Q11: Why we need Fault Contracts in WCF? Why not just use error codes?  
+Q12: What are the Possible Ways of Hosting a WCF Service?   
+Q13: When DataContract and ServiceContract should be used in an application ?  
+Q14: What is WCF Binding and how many of them do you know?  
+Q15: What is transport in WCF?  
+Q16: What is an Operation Contract in WCF?  
+Q17: Explain the difference between WCF vs ASP.NET Web API?  
+Q18: Name some different types of contracts in WCF  
+Q19: Why we need Streaming?  
+Q20: Explain WCF Message exchange Pattern  
+Q21: What are the differences between WCF and ASMX Web Services?  
+Q22: What is Message Contract in WCF?  
+Q23: What is meant by WS-*?  
+Q24: When would we use binary encoder?  
+Q25: When would you use Duplex WCF service?  
+Q26: Can I use MessageContract instead of DataContract or in complement to DataContract?  
+Q27: What is interoperability and how is it achieved with WCF services?  
+Q28: Will it make any difference if I change the operation contract of methods having no return value by OperationContract (IsOneWay=true)?  
+Q29: Explain Message Encoding in WCF and when to use one?  
+Q30: Explain Binary vs MTOM vs Streaming in WCF?  
+Q31: What is the main difference between Request-Response and Duplex in WCF Message Exchange Pattern?  
+Q32: Could we use WSHttpBinding with Request-CallBack (also called Duplex) exchange pattern?  
+Q33: What is the difference between hosting WCF service on IIS, Windows Service and self-hosted app?  
+Q34: Should I use WCF or raw sockets?  
+Q35: What replaces WCF in .Net Core?  
+ 
+-----------------ADO.NET-----------------
+Q1: What is ADO.NET?  
+Q2: What is exactly meaning of disconnected and connected approach in ADO.NET?  
+Q3: What is Connection Pooling in ADO.NET?  
+Q4: What do you understand by DataRelation class?  
+Q5: What is the basic difference between ADO.NET and Entity Framework?  
+Q6: What is the DataAdapter object in ADO.NET?  
+Q7: Describe when you would use the DataView in ADO.NET?  
+Q8: What are the ADO.NET components?  
+Q9: What is SqlCommand object?  
+Q10: How can you define the DataSet structure?  
+Q11: What is the SqlCommandBuilder?  
+Q12: What is the difference between ExecuteScalar, ExecuteReader and ExecuteNonQuery?  
+Q13: What is the difference between DataView, DataTable and DataSet?  
+Q14: What is Unit Of Work?  Related To: OOP
+Q15: Could you explain me some of the main differences between Connection-oriented access and Connectionless access in ADO.NET?  
+Q16: Mention what is the difference between ADO.NET and classic ADO?  
+Q17: What are the differences between using SqlDataAdapter vs SqlDataReader for getting data from a DB?  
+Q18: How could you control connection pooling behavior?   
+Q19: What is the difference between Integrated Security = True and Integrated Security = SSPI?  
+Q20: Is there anything faster than SqlDataReader in .NET?  
+Q21: Is it necessary to manually close and dispose of SqlDataReader?  
+Q22: What's better: DataSet or DataReader?  
+Q23: Where should I use connected architecture approach?  
+Q24: Could you explain some benefits of Repository Pattern?  Related To: OOP
+Q25: What is the difference between OLE DB and ODBC data sources?  
+Q26: How could you monitor connection pooling behavior?  
+Q27: Can you explain the difference between a DataReader, a DataAdapter, a Dataset, and a DataView?  
+Q28: Where should I use disconnected architecture approach?  
+Q29: Name types of transactions in ADO.NET  
+Q30: What is the difference between ADODB, OLEDB and ADO.NET?  
+Q31: What is the best and fast way to insert 2 million rows of data into SQL Server?  
+Q32: Under what scenarios would setting pooling=false in an ADO.NET connection string be of value when connecting to SQL Server?   
+Q33: Name some problems that could occur with connection pooling  
+-----------------jQuery-----------------
+Q1: What is jQuery?  
+Q2: Is jQuery a library for client scripting or server scripting?  
+Q3: Which is the starting point of code execution in jQuery?  
+Q4: What is jQuery.noConflict?  
+Q5: What is a CDN?  
+Q6: What does dollar sign ($) means in jQuery?  
+Q7: What is the use of jQuery .each() function?  
+Q8: Is jQuery replacement of JavaScript?  
+Q9: How JavaScript and jQuery are different?  
+Q10: Is jQuery a W3C standard?  
+Q11: Can we have multiple document.ready() function on the same page?  
+Q12: Why do we use jQuery?  
+Q13: What is the difference between .js and .min.js files?  
+Q14: How do you select element by ID in jQuery?  
+Q15: What is event.PreventDefault()?  
+Q16: What is the difference between jquery.size() and jquery.length?  
+Q17: Is there any difference between body.onload() and document.ready() function?  
+Q18: What are selectors in jQuery and how many types of selectors are there?  
+Q19: What are the fastest/slowest selectors in jQuery?  
+Q20: Difference between $(this) and this in jQuery?  
+Q21: Which is fast document.getElementByID('txtName') or $('#txtName')?  
+Q22: How to create clone of any object using jQuery?  
+Q23: What is difference between prop and attr?  
+Q24: What is the difference between event.PreventDefault() and event.stopPropagation()?  
+Q25: What is the difference between parent() and parents() methods in jQuery?  
+Q26: What is the difference between eq() and get() methods in jQuery?  
+Q27: What are various methods to make ajax request in jQuery?  
+Q28: What is chaining in jQuery?  
+Q29: When would you use AngularJS vs jQuery?  
+Q30: What are deferred and promise object in jQuery?  
+Q31: How do you attach a event to element which should be executed only once?  
+Q32: What is the difference between event.PreventDefault() and return false?  
+Q33: Is there any significant difference between event.preventDefault() vs. return false to stop event propagation?  
+Q34: What is the difference between $('div') and $('<div/>') in jQuery?  
+Q35: Is there any advantage of using $.ajax() for ajax call against $.get() or $.post()?  
+Q36: Explain .bind() vs .live() vs .delegate() vs .on()  
+Q37: What are the differences between JavaScript's window.onload and jQuery's $(document).ready() method?  
+Q38: In what situation you would use multiple version of jQuery and how would you include them?  
+Q39: How does caching helps and how to use caching in jQuery?   
+Q40: How can I get jQuery to perform a synchronous, rather than asynchronous, Ajax request?  
+Q41: What is the advantage of using protocol less URL while referencing jQuery from CDNs?  
+Q42: Is it possible to get value of multiple CSS properties in single statement?  
+Q43: What is the difference between event.stopPropagation and event.stopImmediatePropagation?  
+Q44: Is it possible to hold or delay document.ready execution for sometime?  
+Q45: How can I implement my own $(document).ready functionality without using jQuery?  
+Code Challenges
+Q1: What does $("div") will select?  
+Q2: How to select element having a particular class (.selected)?  
+Q3: What does $('div.parent') will select?  
+Q4: How jQuery selectors are executed?  
+Q5: What is wrong with this code line $('#myid\\.3').text('blah blah!!!');  
+Q6: Can we execute/run multiple Ajax request simultaneously in jQuery? If yes, then how?  
