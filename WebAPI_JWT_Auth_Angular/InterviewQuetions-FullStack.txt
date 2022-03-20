@@ -1,3 +1,638 @@
+Q1. What is MSBI? What are the tools that MSBI comprises?
+Q2. How is SSIS related to SQL Server?
+Q3. What are the tools associated with SSIS?
+Q4. What is a workflow? What do you mean by a control flow and a data flow?
+Q5. Mention the errors in SSIS and explain how error handling works.
+Q6. Define environmental variables in SSIS.
+Q7. What are different lookup cache modes available in SSIS?
+Q8. Explain the architecture of SSIS.
+Q9. How can we do logging in to SSIS?
+Q10.How do you deploy SSIS packages?
+11. How can we organize SSIS packages on production?
+12. Define query parameters in SSRS.
+13. What are variables? Define the variable scope.
+14. Define SSRS and also talk about the SSRS architecture.
+15. Explain the Reporting Life Cycle in SSRS.
+16. When shall we use a null data-driven subscription?
+17. What do you mean by matrix in SSRS? What are sub-reports and how do we create them?
+18. Define Report Model Project.
+19. What do you mean by Report Server Project?
+20. Define RS.exe Utility.
+21. What are the three different parts of RDL files?
+22. What are the different data sources used in SSRS?
+23. Differentiate between Tabular and Matrix Reports.
+24. How to send SSRS Reports from SSIS?
+25. What is SSAS? List out its key features.
+26. What is the significance of UDM in SSAS?
+27. What is the architecture of SSAS?
+28. What languages are used in SSAS?
+29. How are cubes implemented in SSAS?
+30. What is writeback? What are its preconditions?
+
+==================
+C#
+==================
+************C# Interview Questions************
+What is COM and what are the disadvantages of COM?
+What .NET Represents?
+What is a Framework and what does the .NET Framework provide?
+Explain CLR and its Execution Process.
+What is exactly .NET?
+What are the language and its need?
+What are Technology and its need?
+What is Visual Studio?
+Explain about BCL.
+What is the Just-In-Time (JIT) compilation?
+What are Metadata and an assembly?
+What are the differences between managed code and unmanaged code?
+What is C#?
+What is the difference between an EXE and a DLL?
+What’s the difference between IEnumerable<T> and List<T>?
+Why is class an abstract data type?
+What are the new features introduced in C# 7?
+Why should you override the ToString() method?
+What is the difference between string keyword and System.String class?
+Are string objects mutable or immutable in C#?
+What do you mean by String objects are immutable?
+What is a verbatim string literal and why do we use it?
+How do you create empty strings in C#?
+What is the difference between System.Text.StringBuilder and System.String?
+How do you determine whether a String represents a numeric value?
+What is the difference between int.Parse and int.TryParse methods?
+What are Properties in C#? Explain with an example?
+What are the different types of properties available in C#?
+What are the advantages of using properties in C#?
+What is a static property? Give an example?
+What is Virtual Property in C#? Give an example?
+What is an Abstract Property in C#? Give an example?
+Can you use virtual, override, or abstract keywords on an accessor of a static property? 
+What are the 2 broad classifications of data types available in C#?
+How do you create user-defined data types in C#?
+Difference between int and Int32 in C#
+What are the differences between value types and reference types?
+What do you mean by casting a data type?
+What are the 2 kinds of data type conversions available in C#?
+What is the difference between an implicit conversion and an explicit conversion?
+What is the difference between int.Parse and int.TryParse methods?
+What is Boxing and Unboxing in C#?
+What happens during the process of boxing?
+What are Access Modifiers in C#?
+Can we use all access modifiers for all types?
+Can derived classes have greater accessibility than their base types?
+Can the accessibility of a type member be greater than the accessibility of its containing type?
+Can destructors have access modifiers?
+What do protected internal access modifiers mean?
+Can you specify an access modifier for an enumeration? 
+************Inheritance and Interface****************
+What are the 4 pillars of any object-oriented programming language?
+Do structs support inheritance in C#?
+What is the main advantage of using inheritance in C#?
+Does C# support multiple class inheritance?
+Why does C# not support multiple class inheritance?
+What are the differences between interfaces and abstract classes?
+When do you choose interface over an abstract class or vice versa?
+What are the advantages of using interfaces?
+Can an Interface contain fields?
+What is the difference between class inheritance and interface inheritance?
+Can an interface inherit from another interface?
+Can you create an instance of an interface?
+What do you mean by “Explicitly Implementing an Interface”? Give an example?
+When to use Interface?
+************Abstract and Sealed Class************
+When to use Abstract Classes in C#?
+What is an Abstract Class?
+Can you create an instance of an abstract class?
+What is a Sealed Class?
+What is the abstract method in C#?
+When to use the abstract method?
+Can a sealed class be used as a base class?
+Can an abstract class have a constructor? If so what is the use?
+We cannot create an instance of an abstract class. So, what is the use of a constructor in an abstract class?
+An abstract method in an abstract class does not have any implementation, so what is the use of calling it from the abstract class constructor?
+When should a class be declared as abstract?
+When should a method be declared as sealed?
+What is the difference between the private and sealed method?
+When should a class be declared as sealed?
+What are the differences between an abstract class and a sealed class?
+Why should the method have an abstract keyword if it does not have the body?
+What are the characteristics of an abstract class?
+Why can the abstract class not be instantiated?
+Who will provide the implementation (body) for abstract methods?
+What type of members can we define in an abstract class?
+Will abstract class members are created when a subclass object is created?
+How can we execute static and non-static concrete members of the abstract class?
+Can we declare the abstract method as static?
+Can we declare the concrete class as abstract?
+Explain the differences between overriding methods and abstract methods?
+What is the need for abstract classes in application development?
+************Polymorphism************
+What is Polymorphism in C#?
+Explain the different types of Polymorphism in C#?
+What is compile-time Polymorphism in C#?
+What is Runtime Polymorphism in C#?
+Explain different types of Overloading in C#?
+What is function overloading?
+When should we overload methods in C#?
+What are the advantages of using overloading OR what are the disadvantages if we define methods with a different name?
+When is a method considered as an overloaded method?
+Can we overload methods in the same class?
+What is the execution control flow of overloaded methods?
+What is inheritance based overloading?
+What is the function/method overriding?
+When must a method be overridden?
+When is a sub-class method treated as an overriding method?
+How can we override a parent class method under child class?
+How can we execute the superclass method if it is overridden in the sub-class?
+What is the difference between function overloading and function overriding?
+What is method hiding?
+What is the difference between Method Overriding and Method Hiding?
+When can a derived class override a base class member?
+What is the difference between a virtual method and an abstract method?
+************Partial Class and Nested Types************
+What is a partial class? Explain with an example.
+What are the advantages of using Partial Classes in C#?
+Is it possible to create partial structs, interfaces, and methods in C#?
+Can you create partial delegates and enumerations?
+Can different parts of a partial class inherit from different interfaces?
+Can you specify nested classes as Partial Classes?
+How do you create partial methods in C#?
+What is the use of partial methods?
+What is a Nested Type in C#? Give an example?
+Can the nested class access the Containing class. Give an example?
+************Constructor************
+What is a Constructor in C#?
+Can we define a method with the same class name in C#?
+How many types of constructors are there in C#.net?
+Explain the Default constructor?
+Explain the system-defined default constructor?
+When must the developer provide the constructor explicitly?
+Explain user-defined default constructor?
+When should we define the parameterized constructor in a class?
+Explain about parameterized constructor?
+How many constructors can be defined in a class?
+What is a copy constructor in C#?
+Explain the static constructor in C#?
+Can we initialize non-static data fields within the static constructor?
+Can we initialize static data fields within the non-static constructor?
+Can we initialize static data fields in both static and non-static constructor?
+Explain Private constructor in C#?
+When is a destructor method called?
+When will be the object of a class gets destroyed?
+In C# what will happen if you do not explicitly provide a constructor for a class?
+Structs are not referenced types. Can structs have constructors?
+We cannot create instances of static classes. Can we have constructors for static classes?
+Can you prevent a class from being instantiated?
+Can a class or a struct have multiple constructors?
+Can a child class call the constructor of a base class?
+If a child class instance is created, which class constructor is called first – base class or child class?
+Can a class have a static constructor in C#?
+Can you mark a static constructor with access modifiers?
+Can you have parameters for static constructors?
+What happens if a static constructor throws an exception?
+Give 2 scenarios where static constructors can be used?
+What is Destructor?
+Can a class have more than 1 destructor?
+Can structs in C# have destructors?
+Can you pass parameters to destructors?
+Can you explicitly call a destructor?
+Why is it not a good idea to use Empty destructors?
+What is a Constructor in C#?
+Is it possible to force the garbage collector to run?
+Usually, in .NET, the CLR takes care of memory management. Is there any need for a programmer to explicitly release memory and resources? If yes, why and how?
+When do we generally use destructors to release resources?
+When to use a Private constructor in c#?
+************Functions, Fields, and Constants************
+What are the constants in C#?
+Can you declare a class or a struct as constant?
+Does C# support const methods, properties, or events?
+Can you change the value of a constant filed after its declaration?
+How do you access a constant field declared in a class in C#?
+What is the difference between const and read-only?
+What are the 2 broad classifications of fields in C#?
+What are the instance fields in C#?
+What is a static field in C#?
+Can you declare a field read-only in C#?
+What is the difference between a constant and a static read-only field?
+Static members cannot access an object can you give the reason why?
+Can we Overload the main() method in C#?
+Why is C# main method static?
+What is the difference between method parameters and method arguments?
+Explain the difference between passing parameters by value and passing parameters by reference in C#?
+Can we pass value types by reference to a method?
+If a method’s return type is void, can you use a return keyword in the method?
+What is the difference between static class and class with static methods? In which case I should use either of them?
+What is a recursive function in c#? Give an example.
+***********Delegate***********
+What is a Delegate in C#? Explain with one example.
+Types of Delegates in C#.
+What is Single Cast Delegate in C#
+What is Multicast Delegate in C#? Explain with one example.
+Where do you use multicast delegates?
+Where did you use delegates in your project?
+***********Multithreading and Deadlock***********
+What are the Thread and Process?
+What is the difference between Process and Thread?
+Why we need Multi-threading in our project?
+What are the advantages and disadvantages of multithreading in C#?
+How can we create a Thread in C#?
+Why does a delegate need to be passed as a parameter to the Thread class constructor?
+How to pass the parameter in Thread?
+Why we need a ParameterizedThreadStart delegate?
+When to use ParameterizedThreadStart over ThreadStart delegate?
+How to pass data to the thread function in a type-safe manner?
+How to retrieve the data from a thread function?
+What is the difference between Threads and Tasks?
+What is the Significance of Thread.Join and Thread.IsAlive functions in multithreading?
+What happens if shared resources are not protected from concurrent access in a multithreaded program?
+How to protect shared resources from concurrent access?
+What are the Interlocked functions?
+What is Lock?
+What is the Difference between Monitor and lock in C#?
+Explain why and how a deadlock can occur in multithreading with an example?
+How to resolve a deadlock in a multithreaded program?
+What is AutoResetEvent and how it is different from ManualResetEvent?
+What is the Semaphore?
+Explain Mutex and how it is different from other Synchronization mechanisms?
+What is the Race condition?
+How can you share data between multiple threads?
+What are Concurrent Collection Classes?
+What is synchronization and why it is important?
+Explain the four necessary conditions for Deadlock?
+What is LiveLock?
+***********Exception Handling***********
+Explain different types of errors in C#.
+What is a Compilation Error and Runtime Error in C#?
+What is an Exception?
+Who is responsible for abnormal termination of the program whenever runtime errors occur?
+What happens if an exception is raised in the program?
+What CLR does when a logical mistake occurred in the program?
+Explain Exception Handling?
+Why we need exception handling?
+What is the Exception Handling Procedure?
+How can we handle the exception in .NET?
+Explain the difference between Error and Exception in C#?
+What is the difference between System exceptions and Application exceptions?
+Explain about try-catch implementation.
+Explain the Different Properties of the Exception class in C#.
+Can we catch all exceptions using a single catch block?
+When should we write multiple catch blocks for a single try block?
+Explain about the finally block
+Why we need finally block in the real-time project?
+How many ways we can use try-catch and finally?
+What happens if the finally block throws an exception?
+What is the difference between the “throw” and “throw ex” in .NET?
+What is Inner Exception?
+
+==================
+SQL Server
+==================
+******Basics******
+What is RDBMS?
+Explain DML, DDL, DCL, and TCL statements with examples?
+What is the difference between Drop, Delete and Truncate statements in SQL Server?
+What is the Cascading referential integrity constraint?
+Explain the difference between where clause and having clause in SQL Server
+What are the differences between primary key and unique key in SQL Server?
+How can we copy the data from one table to another?
+How to create a new table from an existing table or in how many ways we can create a new table from an existing table?
+What is normalization?
+What are the different normalization forms?
+What is the Cursor?
+What is the use of DBCC commands?
+What is a Linked Server?
+What is Collation?
+What are the different types of Collation Sensitivity?
+How to implement one-to-one, one-to-many and many-to-many relationships while designing tables?
+What is a NOLOCK?
+What is the use of the UPDATE_STATISTICS command?
+What is sub-query? Explain the properties of sub-query.
+What is the SQL Profiler?
+What are the authentication modes in SQL Server? How can it be changed?
+What is an SQL server agent?
+What is log shipping?
+What are sp_configure commands and set commands?
+What are the different types of replication?
+What does it mean to have quoted_identifier on?
+What are the implications of having it off?
+What is the STUFF function and how does it differ from the REPLACE function?
+How to rebuild the Master Database?
+What are the basic functions for master, msdb, model, tempdb databases?
+What is De-normalization?
+What is Scheduled Jobs or What is a Scheduled Tasks?
+What is BCP? When does it use?
+How do you load large data to the SQL server database?
+Can we rewrite subqueries into simple select statements or with joins?
+Can SQL Servers link to other servers like Oracle?
+How to copy the tables, schema, and views from one SQL server to another? 
+What is data warehousing?
+What is OLTP (Online Transaction Processing)?
+What is Data Integrity?
+What are the different levels of data integrity in SQL Server?
+What is Entity integrity?
+What is Referential integrity?
+What is Domain Integrity?
+What is user-defined integrity?
+What is a Constraint in SQL Server?
+Why do we need Constraints in SQL Server?
+What are the different types of Constraints available in SQL Server?
+What is Default Constraint in SQL Server?
+What is NOT NULL Constraint in SQL Server?
+What is a Unique Constraint in SQL Server?
+What is a composite constraint in SQL Server?
+What is CHECK Constraint in SQL Server?
+What is the Primary Key Constraint in SQL Server?
+What is a Composite Primary Key in SQL Server?
+What is Foreign Key Constraint in SQL Server?
+How can we provide the default value for a column?
+What is SELF REFERENTIAL INTEGRITY
+What is the difference between a primary key and a unique key?
+What is the difference between primary key and foreign key?
+*************Temporary Tables********
+What are Temporary Tables in SQL Server?
+Types of Temporary Tables in SQL Server.
+What is a Local Temporary Table?
+What are Global Temporary Tables in SQL Server?
+What are the differences between Local and Global Temporary Tables?
+Can you please explain when to use a temp table in SQL Server?
+Can you create foreign key constraints on temporary tables?
+Do you have to manually delete temporary tables?
+In which database, temporary tables get created?
+How can I check for the existence of a temporary table?
+How to copy the structure of the temporary table from one table to another?
+What is the difference between a Temporary Table and a Table variable in SQL Server? 
+****************Indexes****************
+How is data stored in a database in SQL Server?
+How will be the database engine retrieves the information from a table in SQL Server?
+What is the use of an Index in SQL Server?
+What is an Index in SQL Server?
+Why do we need Indexes in SQL Server?
+What are the types of Indexes available in SQL Server?
+What is a Clustered Index in SQL Server?
+What is a Non-Clustered Index in SQL Server?
+What is the difference between clustered and non-clustered index?
+What is a Unique Index?
+What are the differences between UNIQUE Constraints and the UNIQUE Index?
+When should we be creating a unique constraint over a unique index?
+When SQL Server uses Indexes?
+When should we create indexes on a table?
+What is a Covering Query in SQL Server?
+What is a table scan? Or what is the impact of table scans on performance?
+What is the purpose of the query optimizer in SQL Server?
+What is the first thing you will check for if the query below is performing very slowly?
+What is the significance of an Index on the column used in the GROUP BY clause?
+What is the role of an Index in maintaining a unique column in a table?
+What are the disadvantages of an Index in SQL Server?
+How many Clustered and Non-Clustered Indexes can you have per table?
+Which Index is faster, Clustered or Non-Clustered Index?
+When is it usually better to create a unique non-clustered index on the primary key column?
+What is a Composite Index in SQL Server? or What is the advantage of using a Composite Index in SQL Server? or What is Covering Query?
+What are the different index configurations a table can have?
+What is a table called, if it does not have neither Cluster nor Non-cluster Index? What is it used for?
+How to know which index a table is using?
+****************Triggers****************
+What is a Trigger in SQL Server?
+What are the types of Triggers available in SQL Server?
+What are the special tables used by Triggers in SQL Server?
+What is MAGIC TABLE in triggers?
+What is the Inserted Magic Table?
+What is Deleted Magic Table in SQL Server?
+What is a DML Trigger in SQL Server?
+How to view the updating data in a table?
+What are DDL triggers in SQL Server?
+What is the use of DDL triggers in SQL Server?
+How to Enable, Disable and Drop Triggers in SQL Server?
+****************Views****************
+What is a View in SQL Server?
+What are the differences between a table and a view in SQL Server?
+How many types of views are there in SQL Server?
+What is a simple view or Updatable view?
+What is a complex View in SQL Server?
+Can we drop a table that has dependent views on it?
+Can we create a view based on other views?
+Can we update the views in SQL Server?
+Why do we need Views in SQL Server?
+What are the advantages of using views? OR when do you usually use views?
+What are indexed views? Or What are materialized views?
+What are the limitations of a View in SQL Server?
+****************Functions****************
+What is a function in SQL Server?
+Types of User-Defined Functions in SQL Server
+What is a scalar function in SQL Server?
+What is a table-valued function?
+Where can we use the Inline Table-Valued function?
+What is Inline table-valued functions?
+What are Multi-Statement Table-Valued Functions in SQL Server?
+Differences between Inline Table-Valued functions and Multi-statement Table-Valued functions.
+What are the differences between functions and procedures in SQL Server?
+****************TCL****************
+What is Transaction Management?
+What is a Transaction?
+Explain various types of SQL Server transactions modes
+What is Transaction Control Language?
+Why we need Transaction Control Language?
+What has distributed transactions in SQL Server? When are they used?
+What is a nested transaction?
+When to Use Transactions?
+How to implement transactions in SQL Server?
+What are the properties of a transaction?
+****************Exception****************
+Why we need Exception Handling in SQL Server?
+What is Exception Handling?
+Error handling in SQL Server 2005 and later versions
+How to handle errors in SQL Server?
+What is ERROR_MESSAGE()?
+How to raise errors explicitly in a program?
+What is the difference between the RAISERROR function and throw statement?
+What is @@ERROR?
+How to get @@error and @@rowcount at the same time?
+****************Stored Procedure****************
+What is a SubProgram in SQL Server?
+What is a stored procedure or procedure in SQL Server?
+Why we need the stored procedure?
+What is the output parameter?
+What are the stored procedure status variables?
+Disadvantages of Return status value.
+What are the advantages of using a stored procedure in SQL Server?
+What is an execution plan?
+When would you use it?
+How would you view the execution plan?
+How to view the text of the stored procedure?
+How to encrypt the text of a stored procedure?
+What are the different procedure attributes in SQL Server?
+What is the temporary stored procedure?
+What are Private / Local Temporary Stored Procedure?
+What is the Public / Global Temporary Stored Procedure?
+What is the use of a Temporary Stored Procedure?
+What is deferred name resolution in SQL Server?
+Can a stored procedure call itself or recursive stored procedure? How many level SP nesting possible?
+****************Joins****************
+What are Joins in SQL Server?
+Explain the different types of Joins in SQL Server.
+What are ANSI and NON-ANSI Joins in SQL Server?
+Explain about EQUI Join in SQL Server
+Explain about INNER JOIN in SQL Server
+Explain about OUTER JOIN in SQL Server
+What is the left outer join?
+What is the right outer join?
+What is the full outer join?
+Explain about CROSS join in SQL Server
+What is self-join in SQL Server?
+Differences between UNION and UNION ALL in SQL Server
+Difference between JOIN and UNION in SQL Server
+What is a cross join? Explain with an example?
+What is inner Join in SQL Server? Explain with an example?
+What is the Left Outer Join in SQL Server? Explain with an example?
+What is the Right Outer Join in SQL Server? Explain with an example?
+What is Full Outer Join in SQL Server? Explain with an example?
+
+==================
+MVC
+==================
+Explain MVC (Model-View-Controller) in general?
+What is ASP.NET MVC?
+What are Model, View, and Controller from ASP.NET MVC Point of view?
+Explain the advantages of ASP.NET MVC?
+What is the difference between 3-layer architecture and MVC architecture?
+What are the differences between ASP.NET MVC and ASP.NET WebForms? Is ASP.NET MVC going to replace ASP.NET WebForms?
+Can you please explain the request flow in the ASP.NET MVC framework?
+What are the important namespaces used in ASP.NET MVC?
+What is View Model in ASP.NET MVC?
+What are Action methods in ASP.NET MVC?
+What is ActionResult and how is it different from others?
+How to make a Non-Action method in ASP.NET MVC?
+How you can change the action method name in ASP.NET MVC?
+How to restrict an action method to be invoked only by HTTP GET, POST, PUT or DELETE?
+How to determine an action method is invoked by HTTP GET or POST?
+How to determine an AJAX request?
+What is Child action and how to invoke it?
+What are Partial Views in ASP.NET MVC and it’s needed?
+What are the Layouts in ASP.NET MVC
+What are Sections in ASP.NET MVC?
+What are RenderBody and RenderPage in ASP.NET MVC?
+What are the Styles.Render and Scripts.Render?
+How to enable and disable optimizations in ASP.NET MVC?
+What is _ViewStart?
+What are the different ways of rendering layout in ASP.NET MVC?
+What is the App_Start folder in ASP.NET MVC?
+What are the different ways of returning/rendering a view in ASP.NET MVC?
+What is Area in ASP.NET MVC and How to register Area in ASP.NET MVC?
+What is Scaffolding?
+What are the differences between ViewData, ViewBag, TempData, and Session?
+How to control Session behavior in ASP.NET MVC?
+How is TempData related to Session in ASP.NET MVC?
+What is a View Engine in ASP.NET MVC application?
+How does the View Engine work in the ASP.NET MVC application?   
+What is the Razor View Engine and How to register Custom View Engine in ASP.NET MVC?
+Can you remove the default View Engine in ASP.NET MVC?
+What is the difference between the Razor and WebForm engine?
+What are HTML Helpers in ASP.NET MVC?
+Is it mandatory to use HTML helpers?
+What is the difference between Html.TextBox and Html.TextBoxFor?
+What is the Validation Summary in the ASP.NET MVC Application?
+What is unobtrusive AJAX?
+What is Cross-Domain AJAX?
+What is caching?
+When to use Caching in ASP.NET MVC Application?
+What are the advantages of caching in ASP.NET MVC Application?   
+What is the Output Caching in ASP.NET MVC?
+How to allow users to submit HTML tags in ASP.NET MVC
+What is loose coupling and how is it possible in MVC Design Pattern?
+What is Test-Driven Development (TDD) and what are the commonly used tool for Unit Testing in ASP.NET MVC?
+***
+What is Routing in ASP.NET MVC?
+How you can define a route in ASP.NET MVC?
+What is Attribute Routing and how to define it in ASP.NET MVC?
+When to use Attribute Routing in ASP.NET MVC Application?
+How to enable Attribute Routing in ASP.NET MVC?
+Can we combine both attribute routing and convention-based routing in a single application?
+What are Route Constraints in ASP.NET MVC?
+What is the difference between Routing and URL Rewriting?
+How is the routing table created in ASP.NET MVC?
+What is the use of the RoutePrefix attribute?
+How to override the route prefix? 
+What are Data Annotations in ASP.NET MVC?     
+Built-in Data Annotation Validator Attributes in ASP.NET MVC
+How to apply Server-side validation in ASP.NET MVC?
+How to determine there is no error in Model State?
+How to enable and disable client-side validation in ASP.NET MVC?
+What is a CDN and what are the advantages of using CDN?
+What is the jQuery Validation Unobtrusive plugin?
+What is Bundling and Minification in ASP.NET MVC?
+Can we use Bundling and Minification in ASP.NET MVC3 or ASP.NET MVC4?
+How Bundling uses browser Cache capability?
+What are ASP.NET MVC Filters? Name a few action filters in ASP.NET MVC?
+What are the different types of Filters in ASP.NET MVC?
+Authentication Filters in ASP.NET MVC
+Authorization Filters in ASP.NET MVC
+Action Filters in ASP.NET MVC
+Result Filters in ASP.NET MVC
+Exception Filters in ASP.NET MVC
+What is Custom Action Filter in ASP.NET MVC?
+What is the order of execution of filters in ASP.NET MVC?
+How to Configure Filters in ASP.NET MVC?
+What is the Use of Authorize Action Filter in ASP.NET MVC?
+What is the Use of the ChildActionOnly action filter?
+What is the need for HandleErrorAttribute in MVC?
+We did not apply the HandleError attribute anywhere. So how did all this work?
+What is the use of RequireHttps in MVC?
+
+
+==================
+Web API
+==================
+What is ASP.NET Web API?
+What is the Rest?
+What is Not Rest?
+What are the RESTful services?
+What are the differences between REST and SOAP?
+What are the Differences between WCF and Web API? When to choose one over the other?
+When do we need to choose ASP.NET Web API?
+What is the difference between WCF and WEB API and WCF REST and Web Service?
+What are the advantages of using REST in ASP.NET Web API?
+What are the Differences between WCF Rest and Web API?
+What are the advantages of using ASP.NET Web API?
+What new features are introduced in ASP.NET Web API 2.0?
+What are the differences between ASP.NET MVC and ASP.NET Web API?
+Is it true that ASP.NET Web API has replaced WCF?
+Explain Media Formatters in Web API 2
+How to return JSON from Web API Service irrespective of the Accept header value?
+How to return XML data from Web API Service irrespective of the Accept header value?
+How to return JSON instead of XML from Web API Service when a request is made from the browser?
+****
+Why do we need Web API to develop RESTful services as we can also develop RESTful services using WCF?
+What are the important return types supported in ASP.NET Web API?
+Which .NET framework supports Web API?
+Which protocol ASP.NET Web API supports?
+ASP.NET Web API uses which open-source library for JSON serialization?
+By default, Web API sends an HTTP response with which status code for an uncaught exception?
+How do you construct HtmlResponseMessage in ASP.NET Web API?
+What is Routing in ASP.NET Web API?
+How the Web API Framework handle an incoming HTTP Request?
+What is SOAP?
+How Can we assign an alias name for ASP.NET Web API Action?
+What is Content Negotiation in Web API?
+What is CORS?
+What is Web API Attribute Routing?
+Why do we need Attribute Routing in Web API?
+What is Authentication and Authorization in Web API?
+What is an HTTP Message handler in ASP.NET Web API Application?
+Why Web API versioning is required?
+What are the Different options available in Web API to maintain the versioning?
+What are Request Verbs or HTTP Verbs?
+What do you mean by Parameter Binding in Web API?
+What is the use of Authorize Attribute?
+How to Enable CORS in Web API?
+What is Basic HTTP Authentication?
+What is ASP.Net identity?
+What is Token Based Authentication in Web API?
+How does the Token-Based Authentication work?
+What is a Refresh Token? Why we need Refresh Token in Web API?
+What is HMAC Authentication? Why do we need HMAC Authentication in Web API?
+
+
+
+
+
 1. .Net Core
 2. C#
 3. OOP
